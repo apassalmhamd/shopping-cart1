@@ -289,3 +289,33 @@ height: 40px;
 /* #userAddproduct{
 display: none;
 } */
+@media only screen and (min-width:300px) and (max-width:850px) {
+    header{
+        height: 100%;
+        width: auto;
+    }
+    .header-content{
+        display: block;
+        text-align: center;
+        
+    }
+     ul#user_info {
+        
+        display: block;
+    }
+    .products-filter {
+        position: relative;
+        left: 80px;
+        width: 300px;
+    }
+
+    .products-filter h2{
+        position: relative;
+        left: 25px;
+        width: 300px;
+    }
+    .product-item{
+        display: block;
+        text-align: center;
+    }
+}
