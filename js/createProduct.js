@@ -66,10 +66,7 @@ function uploadImage(){
         alert("type not supported");
         return;
     }
-    if(file.size > 2 * 1024 * 1024){
-        alert("Image not Exced 2MG");
-        return;
-    }
+    
     getImageBase64(file);
 }
 function getImageBase64(file){
@@ -91,10 +88,7 @@ function uploadImage2(){
         alert("type not supported");
         return;
     }
-    if(file.size > 2 * 1024 * 1024){
-        alert("Image not Exced 2MG");
-        return;
-    }
+    
     getImageBase642(file);
 }
 
@@ -117,10 +111,7 @@ function uploadImage3(){
         alert("type not supported");
         return;
     }
-    if(file.size > 2 * 1024 * 1024){
-        alert("Image not Exced 2MG");
-        return;
-    }
+   
     getImageBase643(file);
 }
 
